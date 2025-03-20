@@ -7,7 +7,7 @@ public class Program {
 			if(arr[i]>max)
 				max=arr[i];
 		}
-		return max;
+		return 0;
 	}
 	public static void main(String args[]) {
 		Scanner sc=new Scanner(System.in);
@@ -18,7 +18,7 @@ public class Program {
 		for(int i=0;i<length;i++) {
 			arr[i]=sc.nextInt();
 		}
-		System.out.println("Max Element - "+FindMax(arr, length));
+		System.out.println("Max Element Present in the Array - "+FindMax(arr, length));
 		sc.close();
 	}
 }
