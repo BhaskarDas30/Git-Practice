@@ -28,8 +28,8 @@ public class Program {
 			arr[i]=sc.nextInt();
 		}
 		Program ob=new Program();
-		System.out.println("Max Element - " + FindMax(arr, length));
-		System.out.println("Min Element - " + ob.FindMin(arr, length));
+		System.out.println("Max Element in the Array - " + FindMax(arr, length));
+		System.out.println("Min Element in the Array - " + ob.FindMin(arr, length));
 		sc.close();
 	}
 }
