@@ -7,7 +7,7 @@ public class Program {
 			if(arr[i]>max)
 				max=arr[i];
 		}
-		return 0;
+		return max;
 	}
 	public static void main(String args[]) {
 		Scanner sc=new Scanner(System.in);
